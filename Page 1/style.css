@@ -1,5 +1,88 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0rem;
+    margin: 0rem;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-top: 20rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /* display: flexbox;
+    flex-direction: row; */
+}
+.rownum {
+    font-size: 5rem;
+    align-self: center;
+}
+
+.new-span {
+    background-color: rgba(14, 3, 3, 0.762);
+    color: rgb(250, 249, 249);
+    padding:0.5 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+
+.head {
+    margin-top: 1rem;
+}
+
+.drop-list {
+    display: flex;
+    flex-direction: column;
+    /* display: grid;  will also work*/
+    margin: 2rem 0rem 2rem 0rem;
+    width: 50rem;
+}
+
+.drop-list select {
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.check-it-out{
+    display: flex;
+    flex-direction: column;
+}
+
+.check-it-out button {
+    padding: 1rem 2rem 1rem 2rem;
+    width: 50rem;
+    text-align: left;
+    margin: 0.5rem 0rem;
+    border-radius: 0.5rem;
+    border:none;
+}
+
+.primary {
+    background-color: #aee2ff;
+  }
+  .secondary {
+    background-color: #dddddd;
+  }
+  .success {
+    background-color: #bef0cb;
+  }
+  .danger {
+    background-color: #ffd4d4;
+  }
+  .warning {
+    background-color: #fff4d2;
+  }
+  .info {
+    background-color: #b9f3fc;
+  }
+  .light {
+    background-color: #f5f5f5;
+  }
+  .dark {
+    background-color: #b2b2b2;
+  }
